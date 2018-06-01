@@ -38,9 +38,12 @@ class ProjectList(unittest.TestCase):
     #     self.assertEqual(result['item']['list'][0]['projectCategory'], message1)
     #     self.assertEqual(result['item']['list'][-1]['projectCategory'], message2)
 
-    @parameterized.expand([('web_chujiezhong', 'WEB', '', '1', '4', '1', '', '','inProcess'),])
+    @parameterized.expand([('web_inprocess', 'WEB', '', '1', '6', '1', '', '','inProcess','status'),
+                           # ('web_finish', 'WEB', '', '1', '6', '2', '', '', 'finish'),
+                           # ('web_clear', 'WEB', '', '1', '6', '3', '', '', 'clear'),
+                           ])
     def test_projectls_status(self, name, source, projectCategory, page, pageSize,
-                              projectStatus, searchTime, projectNewType,message):
+                              projectStatus, searchTime, projectNewType,message1,message2):
         stampToken = str(get_stampToken())
         test_data1 = {'stampToken': stampToken, 'source': source,
                          'page': page, 'pageSize': pageSize, 'searchTime': searchTime,
@@ -55,7 +58,7 @@ class ProjectList(unittest.TestCase):
         result = r.json()
         print(result)
         self.assertEqual(result['code'], 1)
-        self.assertEqual(result['item']['list'][0]['status'], message)
-        self.assertEqual(result['item']['list'][-1]['status'], message)
+        self.assertEqual(result['item']['list'][0][message2], message1)
+        self.assertEqual(result['item']['list'][-1][message2], message1)
 if __name__ == '__main__':
     unittest.main()

@@ -3,15 +3,15 @@ import hashlib
 def get_stampToken():
     return int(datetime.now().timestamp()*1000)
 
-def get_chekToken_old(*args):
-    md5 = hashlib.md5()
-    str_code = ""
-    for i in args:
-        str_code = str_code + i
-   # a = list(args)
-    #a.sort()
-    md5.update(str_code.encode('utf-8'))
-    return md5.hexdigest()
+# def get_chekToken_old(*args):
+# #     md5 = hashlib.md5()
+# #     str_code = ""
+# #     for i in args:
+# #         str_code = str_code + i
+# #    # a = list(args)
+# #     #a.sort()
+# #     md5.update(str_code.encode('utf-8'))
+# #     return md5.hexdigest()
 
 def get_chekToken(**kwargs):
     md5 = hashlib.md5()

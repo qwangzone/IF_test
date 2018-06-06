@@ -4,7 +4,7 @@ from parameterized import parameterized
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(dir + "/my_function/")
 sys.path.append(dir + "/data_configuration/")
-from get_token import get_stampToken, get_loginpass, get_chekToken
+from get_token import get_stampToken, get_chekToken
 from get_data import GetData
 
 
@@ -20,9 +20,11 @@ class LoginTest(unittest.TestCase):
         requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
         # 获取accessKey
         response = requests.request('post', url=accessKey_url, data={'userName':userName})
-        accessKey = response.json()['data']
-        loginpass_encrypt = get_loginpass(accessKey,loginPass)
-        testdata = {'checkToken':checkToken, 'device_id':device_id, 'loginPass':loginpass_encrypt,
+        accessKey = response.json()
+        print(accessKey)
+        print(len(accessKey))
+        #loginpass_encrypt = get_loginpass(accessKey,loginPass)
+        testdata = {'checkToken':checkToken, 'device_id':device_id, 'loginPass':loginPass,
                     'sessionKey':sessionKey, 'source':source, 'userName':userName, 'validateCode':validateCode}
         r = requests.request('post', url=self.base_url, data=testdata)
         result = r.json()

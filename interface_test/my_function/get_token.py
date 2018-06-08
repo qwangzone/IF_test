@@ -37,18 +37,14 @@ def get_loginpass(accesskey,loginpass):
     message =pad(loginpass)
     ciphertext = obj.encrypt(str.encode(message))
     return binascii.b2a_hex(ciphertext)
-a = get_loginpass('a03a7f034e134f50', '123456')
-b="wq"
-b.encode()
-print(get_loginpass('a03a7f034e134f50', '123456'))
-print(binascii.b2a_hex(binascii.b2a_hex(a)))
+
 
 # 解密函数
-def decrpy_wq(accesskey, loginpass):
-    PADDING = '\0'
-    BS = 16
-    obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
-    decr = obj.decrypt()
+# def decrpy_wq(accesskey, loginpass):
+#     PADDING = '\0'
+#     BS = 16
+#     obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
+#     decr = obj.decrypt()
 
 
 

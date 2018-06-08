@@ -1,6 +1,10 @@
 from datetime import datetime
-import hashlib, binascii
-#from Crypto.Cipher import AES
+import hashlib, binascii, os, sys, requests
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(dir + "/data_configuration/")
+from get_data import GetData
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
 def get_stampToken():
     return int(datetime.now().timestamp()*1000)
 
@@ -29,13 +33,69 @@ def get_loginpass(accesskey,loginpass):
     PADDING = '\0'
     BS = 16
     pad = lambda s: s + (BS - len(s) % BS) * PADDING
-    obj = AES.new(accesskey, AES.MODE_CBC,'a03a7f034e134f50')
+    obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
     message =pad(loginpass)
-    ciphertext = obj.encrypt(message)
+    ciphertext = obj.encrypt(str.encode(message))
     return binascii.b2a_hex(ciphertext)
+a = get_loginpass('a03a7f034e134f50', '123456')
+b="wq"
+b.encode()
+print(get_loginpass('a03a7f034e134f50', '123456'))
+print(binascii.b2a_hex(binascii.b2a_hex(a)))
+
+# 解密函数
+def decrpy_wq(accesskey, loginpass):
+    PADDING = '\0'
+    BS = 16
+    obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
+    decr = obj.decrypt()
 
 
-# BS=16
+
+
+# 获取authtoken
+def get_auth_token(userName,loginPass,checkToken="111",sessionKey="123"):
+    sessionkey_url = GetData.url + "/createValidateCode"
+    accessKey_url = GetData.url + "/token/accessToken"
+    url_login = GetData.url + "/user/login"
+    data = {'checkToken':checkToken, 'device_id':"222", 'loginPass':loginPass,
+            'sessionKey':sessionKey, 'source':"WEB", 'userName':userName, 'validateCode':"1"}
+    # 获取图形验证码
+    requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
+    # 获取accessKey
+    response = requests.request('post', url=accessKey_url, data={'userName': userName})
+    accessKey = response.json()['data']
+    # loginpass_encrypt = get_loginpass(accessKey,loginPass)
+    r = requests.request('post', url=url_login, data=data)
+    result = r.json()
+    auth_token = result['data']['authToken']
+    return auth_token
+
+class Crypt(object):
+    secret_key = 'a03a7f034e134f50'
+    iv = 'a03a7f034e134f50'
+
+    def encypt(self, s):
+        # 加密
+        PADDING = '\0'
+        pad_it = lambda s: s + (16 - len(s) % 16) * PADDING
+        msg = pad(str.encode(s), 16, style='iso7816')
+        print('输出byte string类型：')
+        print(str.encode(self.iv))
+        cipher = AES.new(str.encode(self.secret_key), AES.MODE_CBC, str.encode(self.iv))
+        #cipher = AES.new(self.secret_key, AES.MODE_CBC, self.iv)
+        #print('b')
+        #print(msg)
+        print(pad_it(s))
+        d = pad_it(s)
+        #msg = cipher.encrypt(str.encode(d))
+        msg = cipher.encrypt(d)
+        print('c')
+        print("输出加密后的类型：")
+        print(type(msg))
+        print(binascii.b2a_hex(msg))
+
+            # BS=16
 # pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
 # print(len(pad("wq")))
 # print(pad("wq").encode('utf-8'))

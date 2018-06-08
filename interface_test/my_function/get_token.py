@@ -36,9 +36,13 @@ def get_loginpass(accesskey,loginpass):
     obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
     message =pad(loginpass)
     ciphertext = obj.encrypt(str.encode(message))
-    return binascii.b2a_hex(ciphertext)
-
-
+    #return binascii.b2a_hex(ciphertext)
+    print(ciphertext)
+    return binascii.hexlify(ciphertext)
+print(get_loginpass("a03a7f034e134f50", "123456"))
+a = get_loginpass("a03a7f034e134f50", "123456")
+print(binascii.a2b_hex(a))
+print(type(a))
 # 解密函数
 # def decrpy_wq(accesskey, loginpass):
 #     PADDING = '\0'
@@ -54,14 +58,15 @@ def get_auth_token(userName,loginPass,checkToken="111",sessionKey="123"):
     sessionkey_url = GetData.url + "/createValidateCode"
     accessKey_url = GetData.url + "/token/accessToken"
     url_login = GetData.url + "/user/login"
-    data = {'checkToken':checkToken, 'device_id':"222", 'loginPass':loginPass,
-            'sessionKey':sessionKey, 'source':"WEB", 'userName':userName, 'validateCode':"1"}
+
     # 获取图形验证码
     requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
     # 获取accessKey
     response = requests.request('post', url=accessKey_url, data={'userName': userName})
     accessKey = response.json()['data']
-    # loginpass_encrypt = get_loginpass(accessKey,loginPass)
+    loginpass_encrypt = get_loginpass(accessKey,loginPass)
+    data = {'checkToken': checkToken, 'device_id': "222", 'loginPass': loginpass_encrypt,
+            'sessionKey': sessionKey, 'source': "WEB", 'userName': userName, 'validateCode': "1"}
     r = requests.request('post', url=url_login, data=data)
     result = r.json()
     auth_token = result['data']['authToken']

@@ -1,16 +1,13 @@
-import unittest
-import requests, os, sys
+import unittest,requests, os, sys
 from parameterized import parameterized
-
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(dir)
 sys.path.append(dir + "/my_function/")
 sys.path.append(dir + "/data_configuration/")
 from get_token import get_stampToken, get_chekToken_old, get_chekToken
 from get_data import GetData
 
 
-class ProjectList(unittest.TestCase):
+class ProjectListTest(unittest.TestCase):
     def setUp(self):
         url = GetData.url
         self.base_url = url + "/project/list0"

@@ -5,5 +5,6 @@ discover = unittest.defaultTestLoader.discover(start_dir=sta_dir, pattern="*_tes
 filename = dir + "/report/apd_interfaceTest_report.html"
 fp = open(filename,'wb')
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="阿朋贷接口测试报告",description="阿朋贷接口",verbosity=2)
-runner.run(discover)
-fp.close()
+print(discover.countTestCases())
+# runner.run(discover)
+# fp.close()

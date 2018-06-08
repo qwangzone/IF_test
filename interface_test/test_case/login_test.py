@@ -12,7 +12,7 @@ class LoginTest(unittest.TestCase):
     url = GetData.url
     def setUp(self):
         self.base_url = self.url + "/user/login"
-    @parameterized.expand([( "login_success", "", "", "15458524695", "123", "WEB", "15458524695", "1", "1", "登录成功"),
+    @parameterized.expand([( "login_success", "", "", "15458524695", "123", "WEB", "c2446993", "1", "1", "登录成功"),
                            ("login_username_null", "", "", "15458524695", "123", "WEB", "", "1","0","用户名错误"),
                            ("login_username_error", "", "", "15458524695", "123", "WEB", "error154585", "1", "0","用户名或密码不正确"),
                            ("login_pass_null", "", "", "", "123", "WEB", "15458524695", "1", "0", "用户名或密码不正确"),

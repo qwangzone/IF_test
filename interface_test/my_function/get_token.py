@@ -32,23 +32,22 @@ def get_chekToken(**kwargs):
 def get_loginpass(accesskey,loginpass):
     PADDING = '\0'
     BS = 16
-    pad = lambda s: s + (BS - len(s) % BS) * PADDING
+    pad1 = lambda s: s + (BS - len(s) % BS) * PADDING
     obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
-    message =pad(loginpass)
+    message =pad1(loginpass)
     ciphertext = obj.encrypt(str.encode(message))
     #return binascii.b2a_hex(ciphertext)
-    print(ciphertext)
+    #print(ciphertext)
     return binascii.hexlify(ciphertext)
-print(get_loginpass("a03a7f034e134f50", "123456"))
-a = get_loginpass("a03a7f034e134f50", "123456")
-print(binascii.a2b_hex(a))
-print(type(a))
 # 解密函数
-# def decrpy_wq(accesskey, loginpass):
-#     PADDING = '\0'
-#     BS = 16
-#     obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
-#     decr = obj.decrypt()
+def decrpy_wq(accesskey, data):
+    #data = get_loginpass("a03a7f034e134f50", "00000")
+    PADDING = '\0'
+    BS = 16
+    obj = AES.new(str.encode(accesskey), AES.MODE_CBC,str.encode('a03a7f034e134f50'))
+    decr = obj.decrypt(binascii.unhexlify(data))
+    return (decr.decode().strip('\0'))
+
 
 
 

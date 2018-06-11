@@ -18,7 +18,7 @@ class UserPersonDataTest(unittest.TestCase):
                            ('test_OpenSumaPay_isnot', '15458524698', '15458524698', False, False, False),
                            ('test_OpenSumaPay_isNotPayPassword', '13658524691', '15811507614', False, True, False)])
     def test_OpenSumaPay(self, name, username, password, message1, message2, message3):
-        """出借人/借款人开户成功、设置交易密码"""
+        """出借人/借款人开户、设置交易密码"""
         auth_token = get_auth_token(username, password)
         r = requests.request('get', url=self.base_url, params={"authToken": auth_token})
         #data={'borrowPermission': borrowPermission, 'openAcctId':openAcctId}

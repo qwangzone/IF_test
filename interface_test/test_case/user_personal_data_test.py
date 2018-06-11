@@ -12,14 +12,18 @@ class UserPersonDataTest(unittest.TestCase):
     url = GetData.url
     def setUp(self):
         self.base_url = self.url + "/user/info"
-    @parameterized.expand([('name',username)])
-    def test_person_data(self, username, password, borrowPermission,openAcctId):
-        auth_token = get_auth_token("c2446993", "15458524695")
-        r = requests.request('get', url=self.base_url,params={"authToken":auth_token})
-        data={'borrowPermission':borrowPermission, 'openAcctId':openAcctId}
-        print(r.json()['data'])
-        print(type(r.json()['data']))
-        self.assertEqual(data, r.json()['data'])
+    @parameterized.expand([('test_OpenSumaPay_success1', 'c2446993', '15458524695')])
+    def test_OpenSumaPay_success(self, name, username, password):
+        """开户成功并设置交易密码成功"""
+        auth_token = get_auth_token(username, password)
+        r = requests.request('get', url=self.base_url, params={"authToken": auth_token})
+        #data={'borrowPermission': borrowPermission, 'openAcctId':openAcctId}
+        result = r.json()
+        print(result)
+        #print(r.json()['data'])
+        # print(type(r.json()['data']))
+        # self.assertEqual(data, r.json()['data'])
+
 if __name__ == '__main__':
     unittest.main()
 

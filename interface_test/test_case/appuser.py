@@ -12,9 +12,8 @@ class AppUserTest(unittest.TestCase):
         url = GetData.url
         self.base_url = url + "/user/appuser"
 
-    @parameterized.expand([#('test_Appuser_notVIP', '15458524695', '15458524695', 'false'),
-                           ('test_Appuser_isVIP', '14458524697', '14458524697', 'true')])
-    def test_AppuserAccount(self, name, username, password, message):
+    @parameterized.expand([('test_Appuser2', '15558524696', '15558524696', 'true', 'true', 'true', True)])
+    def test_Appuser(self, name, username, password, message1, message2, message3, message4):
         """app我的账户"""
         stampToken = str(get_stampToken())
         auth_token = get_auth_token(username, password)
@@ -26,7 +25,10 @@ class AppUserTest(unittest.TestCase):
         print(result)
         self.assertEqual(result['code'], 1)
         self.assertEqual(result['msg'], '查询账户总览成功')
-        self.assertEqual(result['data']['isVIP'], message)
+        self.assertEqual(result['data']['openAutoBid'], message1)
+        self.assertEqual(result['data']['isOpenSumaPay'], message2)
+        self.assertEqual(result['data']['isPayPass'], message3)
+        self.assertEqual(result['data']['isCustRating'], message4)
 
 
 if __name__ == '__main__':

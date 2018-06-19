@@ -12,7 +12,7 @@ class AppUserTest(unittest.TestCase):
         url = GetData.url
         self.base_url = url + "/user/appuser"
 
-    @parameterized.expand([('test_Appuser2', '15558524696', '15558524696', 'true', 'true', 'true', True)])
+    @parameterized.expand([('test_Appuser1', '15558524696', '15558524696', 'true', 'true', 'true', True)])
     def test_Appuser(self, name, username, password, message1, message2, message3, message4):
         """app我的账户"""
         stampToken = str(get_stampToken())

@@ -15,11 +15,9 @@ class ChangePasswordTest(unittest.TestCase):
     def test_changepass(self):
         #stampToken = str(get_stampToken())
         auth_token = get_auth_token(userName='15558524696', loginPass='15558524696')
-        test_data1 = {'authToken': auth_token, 'oldPassword': '123456', 'newPassword': '111111', 'source': 'APP'}
-        #checkToken = get_chekToken(**test_data1)
-        #test_data = {'stampToken': stampToken, 'authToken': auth_token, 'oldPassword': '123456',
-                     #'newPassword': '111111', 'source': 'APP'}
-        r = requests.request('post', url=self.base_url, data=test_data1)
+        test_data = {'authToken': auth_token, 'oldPassword': '123456', 'newPassword': '111111', 'source': 'APP'}
+        r = requests.request('post', url=self.base_url, data=test_data)
+        #r = requests.request('get', url=self.base_url, params=test_data)
         result = r.json()
         print(result)
 

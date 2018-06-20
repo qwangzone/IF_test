@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="增加代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/data_configuration/db_mysql.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/data_configuration/mysql_db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/data_configuration/test_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/projectinfo_12859.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IF_test.iml" afterPath="$PROJECT_DIR$/.idea/IF_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/data_configuration/get_data.py" afterPath="$PROJECT_DIR$/interface_test/data_configuration/get_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/login_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/project_ls_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/project_ls_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/数据准备.txt" afterPath="$PROJECT_DIR$/interface_test/数据准备.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +18,8 @@
       <file leaf-file-name="数据准备.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="594">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -512,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528439319387</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加数据初始化">
+      <created>1529481793999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529481793999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -530,9 +525,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49457702" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20607375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20607375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4262473" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4262473" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -582,7 +577,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge" />
     <MESSAGE value="增加代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加代码" />
+    <MESSAGE value="增加数据初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据初始化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,6 +850,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="false" />
+            <element signature="e#2451#2533#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="594">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -12,14 +12,14 @@ class UserPersonDataTest(unittest.TestCase):
     url = GetData.url
     def setUp(self):
         self.base_url = self.url + "/user/info"
-    @parameterized.expand([('name',username)])
-    def test_person_data(self, username, password, borrowPermission,openAcctId):
+    #@parameterized.expand([('name',username)])
+    def test_person_data(self):
         auth_token = get_auth_token("c2446993", "15458524695")
         r = requests.request('get', url=self.base_url,params={"authToken":auth_token})
-        data={'borrowPermission':borrowPermission, 'openAcctId':openAcctId}
+       # data={'borrowPermission':borrowPermission, 'openAcctId':openAcctId}
         print(r.json()['data'])
         print(type(r.json()['data']))
-        self.assertEqual(data, r.json()['data'])
+        self.assertEqual(1,2)
 if __name__ == '__main__':
     unittest.main()
 

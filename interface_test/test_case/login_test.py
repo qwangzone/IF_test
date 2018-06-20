@@ -35,7 +35,7 @@ class LoginTest(unittest.TestCase):
                     'sessionKey':sessionKey, 'source':source, 'userName':userName, 'validateCode':validateCode}
         r = requests.request('post', url=self.base_url, data=testdata)
         result = r.json()
-        #print(result)
+        print(result)
         self.assertEqual(result['code'], int(code))
         self.assertIn(msg,result['msg'])
 

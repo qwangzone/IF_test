@@ -62,8 +62,9 @@ def get_auth_token(userName,loginPass,checkToken="111",sessionKey="123"):
     requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
     # 获取accessKey
     response = requests.request('post', url=accessKey_url, data={'userName': userName})
+    print(response)
     accessKey = response.json()['data']
-    loginpass_encrypt = get_loginpass(accessKey,loginPass)
+    loginpass_encrypt = get_loginpass(accessKey, loginPass)
     data = {'checkToken': checkToken, 'device_id': "222", 'loginPass': loginpass_encrypt,
             'sessionKey': sessionKey, 'source': "WEB", 'userName': userName, 'validateCode': "1"}
     r = requests.request('post', url=url_login, data=data)

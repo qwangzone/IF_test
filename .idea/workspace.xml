@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/interface_test/test_case/userbanksave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/test_case/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_test/test_case/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IF_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IF_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/runcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/runcase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/test_case/appuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/test_case/appuser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/test_case/changePassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/test_case/changePassword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/my_function/get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/my_function/get_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/test_case/appuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/test_case/appuser_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/test_case/changePassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/test_case/changePassword_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface_test/债转标的准备.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/债转标的准备.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,48 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_token.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
+      <file leaf-file-name="appuser_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/appuser_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appuser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/appuser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="71" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apd_interfaceTest_report.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/report/apd_interfaceTest_report.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="runcase.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interface_test/runcase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_creditAssign_ls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="69" column="71" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,23 +41,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="get_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/get_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changePassword_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/changePassword_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="user_personal_data_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="875">
               <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changePassword.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/changePassword.py">
+      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="668">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -97,8 +83,8 @@
       <file leaf-file-name="userbanksave.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface_test/test_case/userbanksave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="67" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -106,7 +92,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/register.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="get_token.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -121,17 +140,19 @@
       <list>
         <option value="$PROJECT_DIR$/interface_test/data_configuration/get_data.py" />
         <option value="$PROJECT_DIR$/interface_test/数据准备.txt" />
-        <option value="$PROJECT_DIR$/interface_test/my_function/get_token.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/url_data.ini" />
-        <option value="$PROJECT_DIR$/interface_test/债转标的准备.txt" />
         <option value="$PROJECT_DIR$/interface_test/test_case/home_test.py" />
-        <option value="$PROJECT_DIR$/interface_test/test_case/appuser.py" />
         <option value="$PROJECT_DIR$/interface_test/runcase.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/userbanksave.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/changePassword.py" />
+        <option value="$PROJECT_DIR$/interface_test/债转标的准备.txt" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/appuser.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/message.py" />
+        <option value="$PROJECT_DIR$/interface_test/my_function/get_token.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/register.py" />
       </list>
     </option>
   </component>
@@ -146,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,11 +208,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyif02" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,43 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in appuser.py">
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IF_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="user_personal_data_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="IF_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in userbanksave_test.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,7 +276,35 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="Unittests in appuser.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for interface_test.test_case.userbanksave_test.UserBanksave" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="IF_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;interface_test.test_case.userbanksave_test.UserBanksave&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests for interface_test.test_case.userbanksave_test.UserBanksave.test_banksave" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="IF_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;interface_test.test_case.userbanksave_test.UserBanksave.test_banksave&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in appuser_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="IF_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/test_case/appuser.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/test_case/appuser_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in home_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -316,7 +330,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/test_case/home_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in userbanksave.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in userbanksave_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="IF_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,7 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/test_case/userbanksave.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/interface_test/test_case/userbanksave_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -357,19 +371,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.login_test" />
-      <item itemvalue="Python.user_personal_data_test" />
       <item itemvalue="Python tests.Unittests in home_test.py" />
-      <item itemvalue="Python tests.Unittests in userbanksave.py" />
-      <item itemvalue="Python tests.Unittests in appuser.py" />
+      <item itemvalue="Python tests.Unittests in userbanksave_test.py" />
+      <item itemvalue="Python tests.Unittests in appuser_test.py" />
+      <item itemvalue="Python tests.Nosetests for interface_test.test_case.userbanksave_test.UserBanksave.test_banksave" />
+      <item itemvalue="Python tests.Nosetests for interface_test.test_case.userbanksave_test.UserBanksave" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in appuser.py" />
-        <item itemvalue="Python tests.Unittests in userbanksave.py" />
+        <item itemvalue="Python tests.Unittests in userbanksave_test.py" />
+        <item itemvalue="Python tests.Nosetests for interface_test.test_case.userbanksave_test.UserBanksave" />
+        <item itemvalue="Python tests.Nosetests for interface_test.test_case.userbanksave_test.UserBanksave.test_banksave" />
+        <item itemvalue="Python tests.Unittests in appuser_test.py" />
         <item itemvalue="Python tests.Unittests in home_test.py" />
-        <item itemvalue="Python.user_personal_data_test" />
-        <item itemvalue="Python.login_test" />
       </list>
     </recent_temporary>
   </component>
@@ -417,18 +431,28 @@
     <history-entry file="Unittests_in_appuser_py - 2018.06.19 at 10h 58m 17s.xml">
       <configuration name="Unittests in appuser.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_for_userbanksave_UserBanksave_test_banksave - 2018.06.19 at 17h 50m 35s.xml">
+      <configuration name="Nosetests for userbanksave.UserBanksave.test_banksave" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_userbanksave_UserBanksave - 2018.06.19 at 17h 50m 40s.xml">
+      <configuration name="Nosetests for userbanksave.UserBanksave" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_userbanksave_py - 2018.06.19 at 17h 51m 51s.xml">
+      <configuration name="Unittests in userbanksave.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17386723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17386723" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.20607375" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28867102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32570806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27668846" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38235295" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,13 +504,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -719,41 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python3.6/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
@@ -761,10 +743,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
+    <entry file="file://C:/python3.6/Lib/site-packages/parameterized/parameterized.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-661">
+          <caret line="350" column="50" lean-forward="true" selection-start-line="350" selection-start-column="50" selection-end-line="350" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/runcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -778,66 +767,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="1625">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/appuser.py">
+    <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="474">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/report/apd_interfaceTest_report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/python3.6/Lib/site-packages/parameterized/parameterized.py">
+    <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="350" column="50" lean-forward="true" selection-start-line="350" selection-start-column="50" selection-end-line="350" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/test_case/userbanksave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="67" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/changePassword.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/runcase.py">
+    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/get_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/changePassword_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/appuser_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/register.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

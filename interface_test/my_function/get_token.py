@@ -72,6 +72,7 @@ def get_auth_token(userName,loginPass,checkToken="111",sessionKey="123"):
     auth_token = result['data']['authToken']
     return auth_token
 
+
 class Crypt(object):
     secret_key = 'a03a7f034e134f50'
     iv = 'a03a7f034e134f50'
@@ -112,3 +113,26 @@ class Crypt(object):
 # b = sorted(a.items(),key=lambda d :d[1])
 # print(a.items())
 # print(dict(b).values())
+
+
+#获取手机验证码-不需要登录
+def SmsCode(sessionKey="123", mobilephone="12345678910", smsType="Register"):
+    sessionkey_url = GetData.url + "/createValidateCode"
+    requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
+    url = GetData.url + "/sendMobileCode"
+    test_data = {'validateCode': '1', 'sessionKey': sessionKey, 'mobile': mobilephone, 'smsType': smsType}
+    r = requests.request('get', url=url, params=test_data)
+    result = r.json()
+    print(result)
+
+
+#获取手机验证码-需要登录
+def SmsCode_authToken(userName='u3948078', loginPass='123456', smsType='ForgotPayPassword', mobile='13658524694'):
+    auth_token_sms = get_auth_token(userName, loginPass, checkToken="111", sessionKey="123")
+    url = GetData.url + "/sendUserMobileCode"
+    test_data = {'authToken': auth_token_sms, 'smsType': smsType, 'mobile': mobile}
+    r = requests.request('post', url=url, data=test_data)
+    result = r.json()
+    print(result)
+
+SmsCode_authToken()

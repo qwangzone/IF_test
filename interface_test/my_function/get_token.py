@@ -1,16 +1,12 @@
 from datetime import datetime
 import hashlib, binascii, os, sys, requests
-
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(dir + "/data_configuration/")
 from get_data import GetData
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
-
-
 def get_stampToken():
-    return int(datetime.now().timestamp() * 1000)
-
+    return int(datetime.now().timestamp()*1000)
 
 # def get_chekToken_old(*args):
 # #     md5 = hashlib.md5()
@@ -25,10 +21,10 @@ def get_stampToken():
 def get_chekToken(**kwargs):
     md5 = hashlib.md5()
     str_code = ""
-    values = list(dict(sorted(kwargs.items(), key=lambda d: d[0])).values())
+    values = list(dict(sorted(kwargs.items(),key=lambda d :d[0])).values())
     for i in values:
         str_code = str_code + i
-    md5.update((str_code + "689d3783957d65d57229ba3dc70a20fb").encode('utf-8'))
+    md5.update((str_code+"689d3783957d65d57229ba3dc70a20fb").encode('utf-8'))
     return md5.hexdigest()
 
 
@@ -65,12 +61,14 @@ def get_auth_token(userName, loginPass, checkToken="111", sessionKey="123"):
     requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
     # 获取accessKey
     response = requests.request('post', url=accessKey_url, data={'userName': userName})
+    #print(response)
     accessKey = response.json()['data']
     loginpass_encrypt = get_loginpass(accessKey, loginPass)
     data = {'checkToken': checkToken, 'device_id': "222", 'loginPass': loginpass_encrypt,
             'sessionKey': sessionKey, 'source': "WEB", 'userName': userName, 'validateCode': "1"}
     r = requests.request('post', url=url_login, data=data)
     result = r.json()
+    #print(result)
     auth_token = result['data']['authToken']
     return auth_token
 
@@ -115,3 +113,42 @@ class Crypt(object):
         # b = sorted(a.items(),key=lambda d :d[1])
         # print(a.items())
         # print(dict(b).values())
+
+            # BS=16
+# pad = lambda s: s + (BS - len(s) % BS) * chr(BS - len(s) % BS)
+# print(len(pad("wq")))
+# print(pad("wq").encode('utf-8'))
+# #print(get_chekToken("wq","sa"))
+#
+# a = {"b":"12", "a":"89","hj":"67"}
+# def sortedDictValues1(adict):
+#     keys = list(adict.keys())
+#     keys.sort()
+#     return [adict[key]  for key  in keys]
+# #print(sortedDictValues1(a))
+#
+# b = sorted(a.items(),key=lambda d :d[1])
+# print(a.items())
+# print(dict(b).values())
+
+
+#获取手机验证码-不需要登录
+def SmsCode(sessionKey="123", mobilephone="12345678911", smsType="Register"):
+    sessionkey_url = GetData.url + "/createValidateCode"
+    requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
+    url = GetData.url + "/sendMobileCode"
+    test_data = {'validateCode': '1', 'sessionKey': sessionKey, 'mobile': mobilephone, 'smsType': smsType}
+    r = requests.request('get', url=url, params=test_data)
+    result = r.json()
+    print(result)
+
+
+#获取手机验证码-需要登录
+def SmsCode_authToken(userName='c2446993', loginPass='15458524695', smsType='ForgotPayPassword', mobile='13658524694'):
+    auth_token_sms = get_auth_token(userName, loginPass)
+    url = GetData.url + "/sendUserMobileCode"
+    test_data = {'authToken': auth_token_sms, 'smsType': smsType, 'mobile': mobile}
+    r = requests.request('post', url=url, data=test_data)
+    result = r.json()
+    print(result)
+SmsCode_authToken()

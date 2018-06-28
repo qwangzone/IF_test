@@ -26,7 +26,7 @@ def get_chekToken(**kwargs):
         str_code = str_code + i
     md5.update((str_code+"689d3783957d65d57229ba3dc70a20fb").encode('utf-8'))
     return md5.hexdigest()
-
+#print(type(get_chekToken()))
 
 # 登录密码加密
 def get_loginpass(accesskey, loginpass):
@@ -139,8 +139,8 @@ def SmsCode(sessionKey="123", mobilephone="12345678911", smsType="Register"):
     url = GetData.url + "/sendMobileCode"
     test_data = {'validateCode': '1', 'sessionKey': sessionKey, 'mobile': mobilephone, 'smsType': smsType}
     r = requests.request('get', url=url, params=test_data)
-    result = r.json()
-    print(result)
+    #result = r.json()
+    #print(result)
 
 
 #获取手机验证码-需要登录
@@ -149,6 +149,6 @@ def SmsCode_authToken(userName='c2446993', loginPass='15458524695', smsType='For
     url = GetData.url + "/sendUserMobileCode"
     test_data = {'authToken': auth_token_sms, 'smsType': smsType, 'mobile': mobile}
     r = requests.request('post', url=url, data=test_data)
-    result = r.json()
-    print(result)
+    #result = r.json()
+    #print(result)
 SmsCode_authToken()

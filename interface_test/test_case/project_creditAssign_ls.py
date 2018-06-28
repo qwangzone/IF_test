@@ -9,7 +9,7 @@ from get_token import get_stampToken, get_chekToken
 from get_data import GetData
 
 class ProjectcreditAssignList(unittest.TestCase):
-
+    """债转列表测试"""
     def setUp(self):
         url = GetData.url
         self.base_url = url + "/project/creditAssignList"

@@ -13,13 +13,13 @@ class LoginTest(unittest.TestCase):
     def setUp(self):
         self.base_url = self.url + "/user/login"
     @parameterized.expand([( "login_success", "", "", "15458524695", "123", "WEB", "c2446993", "1", "1", "登录成功"),
-                           ("login_username_null", "", "", "15458524695", "123", "WEB", "", "1","0","用户名错误"),
-                           ("login_username_error", "", "", "15458524695", "123", "WEB", "error154585", "1", "0","用户名或密码不正确"),
-                           ("login_pass_null", "", "", "", "123", "WEB", "15458524695", "1", "0", "用户名或密码不正确"),
-                           ("login_pass_error", "", "", "error123", "123", "WEB", "15458524695", "1", "0", "用户名或密码不正确"),
-                           ("login_vail_code_error", "", "", "15458524695", "123", "WEB", "15458524695", "12", "0", "验证码错误"),
-                           ("all_null", "", "", "", "123", "WEB", "", "", "0", "验证码错误"),
-                           ("all_wrong", "", "", "error123", "123", "WEB", "error_username", "12", "0", "验证码错误"),
+                           # ("login_username_null", "", "", "15458524695", "123", "WEB", "", "1","0","用户名错误"),
+                           # ("login_username_error", "", "", "15458524695", "123", "WEB", "error154585", "1", "0","用户名或密码不正确"),
+                           # ("login_pass_null", "", "", "", "123", "WEB", "15458524695", "1", "0", "用户名或密码不正确"),
+                           # ("login_pass_error", "", "", "error123", "123", "WEB", "15458524695", "1", "0", "用户名或密码不正确"),
+                           # ("login_vail_code_error", "", "", "15458524695", "123", "WEB", "15458524695", "12", "0", "验证码错误"),
+                           # ("all_null", "", "", "", "123", "WEB", "", "", "0", "验证码错误"),
+                           # ("all_wrong", "", "", "error123", "123", "WEB", "error_username", "12", "0", "验证码错误"),
                            ])
     def test_login(self, name, checkToken, device_id, loginPass,sessionKey, source, userName, validateCode, code, msg):
         """登录接口测试"""
@@ -29,6 +29,7 @@ class LoginTest(unittest.TestCase):
         requests.request('post', url=sessionkey_url, data={'sessionKey': sessionKey})
         # 获取accessKey
         response = requests.request('post', url=accessKey_url, data={'userName':userName})
+        print(response.json())
         accessKey = response.json()['data']
         loginpass_encrypt = get_loginpass(accessKey,loginPass)
         testdata = {'checkToken':checkToken, 'device_id':device_id, 'loginPass':loginpass_encrypt,

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/load_test/locust_fabuhui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/load_test/locustfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/load_test/test_Wq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/change_phone_by_idcard_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/change_phone_by_phone_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/log_study.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface_test/test_case/usercoupon_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/my_function/get_token.py" afterPath="$PROJECT_DIR$/interface_test/my_function/get_token.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/report/apd_interfaceTest_report.html" afterPath="$PROJECT_DIR$/interface_test/report/apd_interfaceTest_report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/runcase.py" afterPath="$PROJECT_DIR$/interface_test/runcase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/login_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py" afterPath="$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py" afterPath="$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface_test/数据准备.txt" afterPath="$PROJECT_DIR$/interface_test/数据准备.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +32,20 @@
       <file leaf-file-name="数据准备.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectinfo_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py">
+      <file leaf-file-name="change_phone_by_idcard_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/change_phone_by_idcard_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+            <state relative-caret-position="693">
+              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#521#634#0" expanded="false" />
-                <element signature="e#2668#2802#0" expanded="false" />
-                <marker date="1529463210493" expanded="false" signature="460:515" ph="..." />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,48 +54,30 @@
       <file leaf-file-name="get_token.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="330">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectinfo_12859.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_12859.txt">
+      <file leaf-file-name="usercoupon_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/usercoupon_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="158">
+              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_personal_data_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
+      <file leaf-file-name="login_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_mysql.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/db_mysql.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="url_data.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="1122">
+              <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -130,20 +123,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/interface_test/债转标的准备.txt" />
-        <option value="$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/home_test.py" />
-        <option value="$PROJECT_DIR$/interface_test/my_function/get_token.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py" />
-        <option value="$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/get_data.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/project_ls_test.py" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/test_data.py" />
-        <option value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/db_mysql.ini" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/mysql_db.py" />
         <option value="$PROJECT_DIR$/interface_test/data_configuration/url_data.ini" />
         <option value="$PROJECT_DIR$/interface_test/test_case/projectinfo_12859.txt" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/log_study.py" />
+        <option value="$PROJECT_DIR$/interface_test/runcase.py" />
+        <option value="$PROJECT_DIR$/interface_test/load_test/test_Wq.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
+        <option value="$PROJECT_DIR$/interface_test/load_test/locustfile.py" />
+        <option value="$PROJECT_DIR$/interface_test/load_test/locust_fabuhui.py" />
         <option value="$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py" />
+        <option value="$PROJECT_DIR$/interface_test/my_function/get_token.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/change_phone_by_phone_test.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/change_phone_by_idcard_test.py" />
+        <option value="$PROJECT_DIR$/interface_test/test_case/usercoupon_test.py" />
         <option value="$PROJECT_DIR$/interface_test/数据准备.txt" />
       </list>
     </option>
@@ -169,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,7 +243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -261,25 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.projectinfo_test">
-    <configuration default="false" name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IF_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.usercoupon_test">
     <configuration default="false" name="projectinfo_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +281,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="project_ls_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -310,43 +293,61 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IF_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/project_ls_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/login_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="mysql_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="change_phone_by_idcard_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/data_configuration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IF_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/data_configuration/mysql_db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/change_phone_by_idcard_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="change_phone_by_phone_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/data_configuration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IF_test" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/data_configuration/test_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/change_phone_by_phone_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="usercoupon_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_test/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IF_test" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_test/test_case/usercoupon_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,19 +450,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.login_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.projectinfo_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.project_ls_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mysql_db" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_data" />
+      <item index="0" class="java.lang.String" itemvalue="Python.projectinfo_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.login_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.change_phone_by_idcard_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.change_phone_by_phone_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.usercoupon_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.projectinfo_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mysql_db" />
-        <item index="2" class="java.lang.String" itemvalue="Python.login_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.project_ls_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_data" />
+        <item index="0" class="java.lang.String" itemvalue="Python.usercoupon_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.change_phone_by_idcard_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.change_phone_by_phone_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.login_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.projectinfo_test" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529481793999</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="数据sql准备">
+      <created>1529488352001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529488352001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -522,12 +530,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49457702" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20607375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20607375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4262473" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45986986" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -578,7 +586,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="增加代码" />
     <MESSAGE value="增加数据初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加数据初始化" />
+    <MESSAGE value="数据sql准备" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据sql准备" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,97 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_ls_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_ls_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/url_data.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -790,27 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python3.6/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1106">
@@ -846,29 +743,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_ls_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-            <element signature="e#2451#2533#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python3.6/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-313">
           <caret line="782" column="8" lean-forward="false" selection-start-line="782" selection-start-column="8" selection-end-line="782" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -883,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,40 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#521#634#0" expanded="false" />
-            <element signature="e#2668#2802#0" expanded="false" />
-            <marker date="1529463210493" expanded="false" signature="460:515" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_12859.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/data_configuration/test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,24 +790,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="433" column="25" lean-forward="true" selection-start-line="433" selection-start-column="25" selection-end-line="433" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/site-packages/werkzeug/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25905">
+          <caret line="791" column="0" lean-forward="true" selection-start-line="791" selection-start-column="0" selection-end-line="791" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/load_test/apd_interfaceTest_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/site-packages/parameterized/parameterized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11649">
+          <caret line="358" column="54" lean-forward="false" selection-start-line="358" selection-start-column="54" selection-end-line="358" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/runcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/load_test/test_Wq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/load_test/locustfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/load_test/locust_fabuhui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.6/Lib/site-packages/locust/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="113" column="6" lean-forward="false" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_12859.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/projectinfo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_ls_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/home_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/project_creditAssign_ls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/log_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="72" />
+        <state relative-caret-position="297">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/alter_loginpass_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="94" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/change_phone_by_phone_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/my_function/get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/change_phone_by_idcard_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/test_case/usercoupon_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/数据准备.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>

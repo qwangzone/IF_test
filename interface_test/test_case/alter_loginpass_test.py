@@ -7,8 +7,10 @@ sys.path.append(dir + "/data_configuration/")
 from get_token import get_stampToken, get_chekToken, get_loginpass, get_auth_token
 from get_data import GetData
 
+
 class AlterLoginpassTest(unittest.TestCase):
     url = GetData.url
+
     def setUp(self):
         self.base_url = self.url + "/user/savePassword"
 

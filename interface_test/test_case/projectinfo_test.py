@@ -1,4 +1,4 @@
-import unittest, requests, os, sys, json
+import unittest, requests, os, sys, json,logging
 from parameterized import parameterized
 
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -87,13 +87,13 @@ class ProjectInfoTest(unittest.TestCase):
     #     # 还款方式
     #     self.assertEqual(result['data']['project']['repaymentCalcTypeDesc'], repaymentCalcTypeDesc)
     #     # 还款方式计算公式
-    @parameterized.expand([('test_xin',12859,'APP'),
-                           #('test_che', 60500, 'APP'),
-                           # ('test_qi', 60500, 'APP'),
-                           # ('test_fang', 60500, 'APP'),
+    @parameterized.expand([('test_xin',60500,'APP'),
+                           #('test_che', 60503, 'APP'),
+                           # ('test_qi', 60506, 'APP'),
+                           # ('test_fang', 60502, 'APP'),
                            ])
     def test_project(self,name,projectId,source):
-        """未登录APP标的详情"""
+        """未登录APP标的详情信息完善"""
         #auth_token = get_auth_token("c2446993", "15458524695")
         data = {'projectId': projectId, 'source': source, 'pages': '2'}
         r = requests.request('get', url=self.base_url + str(data['projectId']), params=data)

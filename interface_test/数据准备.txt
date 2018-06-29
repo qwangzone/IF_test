@@ -106,3 +106,5 @@ INSERT INTO `apd_biz_sina`.`user` (`UserID`, `UserName`, `NickName`, `UserType`,
 普通邀请 1
 3、消息中心
 INSERT INTO `apd_biz_sina`.`message` (`MsgType`, `UserID`, `MsgContent`, `IsRead`, `CreateAt`, `UpdateAt`, `DelFlag`) VALUES ('RechargeSuccess', '130618', '您已于2018-06-28 14:56:31向您的阿朋贷账户成功充值人民币￥0元。', '0', '2018-06-28 14:57:42', '2018-06-28 15:57:42', '0');
+
+4、cashcoupon兑现券兑换

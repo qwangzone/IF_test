@@ -41,6 +41,10 @@ class DB:
                 cursor.execute(sql)
         self.conn.commit()
 
+    def execute(self,sql):
+        with self.conn.cursor() as cursor:
+            cursor.execute(sql)
+        self.conn.commit()
     def close(self):
         self.conn.close()
 

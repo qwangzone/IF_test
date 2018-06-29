@@ -14,12 +14,12 @@ class MessageTest(unittest.TestCase):
         self.base_url = url + "/msg/msg"
 
     def test_aPPmessage(self):
-        stampToken = str(get_stampToken())
+        stampToken = get_stampToken()
         authToken = get_auth_token(userName='15558524695', loginPass='123456')
-        test_data1 = {'stampToken': stampToken, 'authToken': authToken, 'messageFlag': '', 'page': '', 'isRead': '',
+        test_data1 = {'stampToken': str(stampToken), 'authToken': authToken, 'messageFlag': '', 'page': '', 'isRead': '',
                       'source': 'APP'}
         checkToken = get_chekToken(**test_data1)
-        test_data = {'stampToken': stampToken, 'authToken': authToken, checkToken: 'checkToken',
+        test_data = {'stampToken': str(stampToken), 'authToken': authToken, 'checkToken': checkToken,
                      'messageFlag': '', 'page': '', 'isRead': '', 'source': 'APP'}
         r = requests.request('get', url=self.base_url, params=test_data)
         result = r.json()

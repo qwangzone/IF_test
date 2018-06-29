@@ -41,6 +41,7 @@ def get_loginpass(accesskey, loginpass):
     return binascii.hexlify(ciphertext)
 
 
+
 # 解密函数
 def decrpy_wq(accesskey, data):
     # data = get_loginpass("a03a7f034e134f50", "00000")
@@ -52,7 +53,7 @@ def decrpy_wq(accesskey, data):
 
 
 # 获取authtoken
-def get_auth_token(userName, loginPass, checkToken="111", sessionKey="123"):
+def get_auth_token(userName='15458524695', loginPass='15458524695', checkToken="111", sessionKey="123"):
     sessionkey_url = GetData.url + "/createValidateCode"
     accessKey_url = GetData.url + "/token/accessToken"
     url_login = GetData.url + "/user/login"
@@ -140,15 +141,15 @@ def SmsCode(sessionKey="123", mobilephone="12345678911", smsType="Register"):
     test_data = {'validateCode': '1', 'sessionKey': sessionKey, 'mobile': mobilephone, 'smsType': smsType}
     r = requests.request('get', url=url, params=test_data)
     result = r.json()
-    print(result)
+    #print(result)
 
 
-#获取手机验证码-需要登录
-def SmsCode_authToken(userName='c2446993', loginPass='15458524695', smsType='ForgotPayPassword', mobile='13658524694'):
+# 获取手机验证码-需要登录
+
+def SmsCode_authToken(userName='14458526695', loginPass='14458526695', smsType='ForgotPayPassword',mobile='14458526695'):
     auth_token_sms = get_auth_token(userName, loginPass)
     url = GetData.url + "/sendUserMobileCode"
     test_data = {'authToken': auth_token_sms, 'smsType': smsType, 'mobile': mobile}
     r = requests.request('post', url=url, data=test_data)
     result = r.json()
-    print(result)
-SmsCode_authToken()
+   # print(result)

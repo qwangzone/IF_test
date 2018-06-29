@@ -142,6 +142,8 @@ def SmsCode(sessionKey="123", mobilephone="12345678911", smsType="Register"):
     r = requests.request('get', url=url, params=test_data)
     result = r.json()
     #print(result)
+    #result = r.json()
+    #print(result)
 
 
 # 获取手机验证码-需要登录
@@ -153,3 +155,6 @@ def SmsCode_authToken(userName='14458526695', loginPass='14458526695', smsType='
     r = requests.request('post', url=url, data=test_data)
     result = r.json()
    # print(result)
+
+    #result = r.json()
+    #print(result)

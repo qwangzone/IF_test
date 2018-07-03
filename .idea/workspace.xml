@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/interface_test/test_case/updatemsg_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/IF_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IF_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/test_case/message_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/test_case/message_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface_test/债转标的准备.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/债转标的准备.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -542,8 +535,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18756586" />
       <window_info anchor="bottom" id="TODO" order="6" />

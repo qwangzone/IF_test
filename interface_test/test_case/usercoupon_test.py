@@ -8,7 +8,7 @@ from get_data import GetData
 
 
 class UserCoupon(unittest.TestCase):
-    """用户红包、加息券、兑现券展示测试"""
+    """我的奖励，用户红包、加息券、兑现券展示测试"""
     url = GetData.url
     def setUp(self):
         self.base_url = self.url + "/coupon"

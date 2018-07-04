@@ -34,6 +34,7 @@ class DB:
         with self.conn.cursor() as cursor:
                 cursor.execute(sql)
                 print(cursor.fetchall())
+
     def insert(self, table_name, test_data):
         data = test_data[table_name]
         for sql in data:
@@ -41,10 +42,11 @@ class DB:
                 cursor.execute(sql)
         self.conn.commit()
 
-    def execute(self,sql):
+    def execute(self, sql):
         with self.conn.cursor() as cursor:
             cursor.execute(sql)
         self.conn.commit()
+
     def close(self):
         self.conn.close()
 
@@ -60,5 +62,5 @@ if __name__ == '__main__':
          }
     db = DB()
    # db.clear('project')
-    db.insert('project',datas)
+    db.insert('project', datas)
     db.close()

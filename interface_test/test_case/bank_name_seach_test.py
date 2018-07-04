@@ -22,6 +22,8 @@ class BankNameSeachTest(unittest.TestCase):
         data_params = {'authToken': authtoken, 'stampToken': str(stampToken), 'checkToken': chcketoken,'bankName':'宣化'}
         response = requests.request('get', url=self.base_url, params=data_params)
         self.result = response.json()
+        # with open('bank_name.txt', 'w') as wq:
+        #     wq.write(json.dumps(self.result))
         with open('bank_name.txt', 'r') as file:
             content = file.read()
         self.assertEqual(self.result,json.loads(content))

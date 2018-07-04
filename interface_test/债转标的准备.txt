@@ -16,12 +16,16 @@
 
 3、消息中心，用户（15558524695 密码123456）
 INSERT INTO `apd_interfaceauto_test`.`user` (`UserID`, `UserName`, `NickName`, `UserType`, `Mobile`, `MobileIsVerified`, `MobileVerifyAt`, `DeviceId`, `Gender`, `Age`, `Location`, `Email`, `EmailStatus`, `EmailVerifyAt`, `IdCard`, `RealName`, `IdCardIsVerified`, `IdCardIsReVerified`, `IsOpenPayUser`, `OpenPayUserAt`, `IsOpenSinaPay`, `OpenSinaPayAt`, `BorrowPermission`, `IdCardVerifyAt`, `EncryptedMobile`, `EncryptedIdCard`, `RegisterAt`, `LastLoginAt`, `LoginTimes`, `Remark`, `IsValid`, `OldUserId`, `openSinaStatus`, `OpenAutoBid`, `IsFreezenWithdraw`, `IsFrozenInvest`, `IsFrozenRecharge`, `IsOpenSumaPay`, `OpenSumaPayAt`, `SumaPayAccountID`, `IsPayPassword`, `AutoBidSignSeriNo`, `IsCashLoan`, `AutoCreditAssign`) VALUES ('130711', 'c5222885', NULL, 'Customer', '155****4695', b'1', '2017-11-20 14:15:17', '222', '男', '20', '浙江', NULL, 'NoBind', NULL, '342***19970211**75', '茨汐哼', b'1', b'1', b'1', NULL, b'0', NULL, '0', '2017-11-20 14:16:25', 'Ygk7zlKepIF/cM7aigTmlmGMjU6TMSFP9Y3xE0toH+0z53zuk9Pnh3fNqnyHPAk6', 'nFefWIQa4i95rdY+1LLqQt8l4/EM9AklqvMdOO4gyYOfg/f9kxncb99rV69UK01q', '2017-11-20 14:15:17', '2018-07-03 03:36:14', '177', NULL, '1', NULL, NULL, 'OPEN', b'0', b'0', b'0', b'1', '2017-11-20 14:16:25', '9930040050130011378', b'1', '17121814591526154137', b'0', 'OPEN');
-INSERT INTO `apd_interfaceauto_test`.`message` (`MsgID`, `MsgType`, `UserID`, `MsgContent`, `IsRead`, `CreateAt`, `UpdateAt`, `DelFlag`) VALUES ('25295', 'RechargeSuccess', '132095', '您已于2018-01-26 10:51:57向您的阿朋贷账户成功充值人民币￥1,000元。', '1', '2018-01-26 10:53:11', '2018-07-03 15:32:10', '0');
+INSERT INTO `apd_interfaceauto_test`.`message` (`MsgID`, `MsgType`, `UserID`, `MsgContent`, `IsRead`, `CreateAt`, `UpdateAt`, `DelFlag`) VALUES ('25295', 'RechargeSuccess', '132095', '您已于2018-01-26 10:51:57向您的阿朋贷账户成功充值人民币￥1,000元。', '0', '2018-01-26 10:53:11', '2018-07-03 15:32:10', '0');
 
 4、消息中心-标记已读
+标记已读后需要把已读变成未读:
+UPDATE `apd_interfaceauto_test`.`message` SET `IsRead`='0' WHERE (`MsgID`='25295');
 
+5、消息中心-删除消息之后再恢复
+UPDATE `apd_interfaceauto_test`.`message` SET `DelFlag`='0' WHERE (`MsgID`='25295');
 
-5、cashcoupon兑现券兑换
+6、cashcoupon兑现券兑换
 用户15458524695 密码15458524695（依赖于王奇所造投资人兑现券 15458524695）
 UPDATE `apd_interfaceauto_test`.`activity_cashcoupon` SET `id`='6593', `userId`='132095', `couponCode`='2i80yo4x1v42u7h3', `status`='0', `amount`='2.00', `name`='标的收尾兑现券', `type`='2', `source`='57', `usedFor`='1', `projectId`=NULL, `expire`='2018-07-08 10:16:52', `note`='标的收尾兑现券。', `couponid`=NULL, `sourceName`='标的收尾活动', `investmentId`='0', `investmentUserId`='0', `investmentAmount`=NULL, `strfrom`='Web', `CreateAt`='2015-11-10 10:16:52', `UpdateAt`='2018-06-29 13:56:19' WHERE (`id`='6593');
 UPDATE `apd_interfaceauto_test`.`activity_cashcoupon` SET `status`='0' WHERE (`id`='6593');

@@ -38,11 +38,13 @@ UPDATE `apd_interfaceauto_test`.`activity_cashcoupon` SET `status`='0' WHERE (`i
 
 7、首页
 后台-台平台公告公告管理-媒体公告(前台新闻资讯)-文章标题为"新闻大事件暴走大事件"
-INSERT INTO `apd_biz_sina`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3971', '新闻大事件暴走大事件', '111', '', '2018-07-04 16:24:23', '2018-07-04 16:24:37', '1', '1111', '0', NULL, '1', NULL);
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3971', '新闻大事件暴走大事件', '111', '', '2018-07-04 16:24:23', '2018-07-04 16:24:37', '1', '1111', '0', NULL, '1', NULL);
 
 后台-公告管理-阿朋动态(前台公司动态)-文章标题为"上半年业绩重大突破"
-INSERT INTO `apd_biz_sina`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3972', '上半年业绩重大突破', '业绩非常良好', '<p>反反复复</p>', '2018-07-04 16:27:12', '2018-07-04 16:28:55', '5', '财经频道', '0', '', '1', NULL);
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3972', '上半年业绩重大突破', '业绩非常良好', '<p>反反复复</p>', '2018-07-04 16:27:12', '2018-07-04 16:28:55', '5', '财经频道', '0', '', '1', NULL);
 
 后台-公告管理-公告列表(前)-文章标题为"小幸运"
-INSERT INTO `apd_biz_sina`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3973', '小幸运', '我', '<pre id=\"best-content-2261216349\" accuse=\"aContent\" class=\"best-text mb-10\" style=\"margin-top: 10px; margin-bottom: 10px; padding: 0px; font-family: &#39;PingFang SC&#39;, &#39;Lantinghei SC&#39;, &#39;Microsoft YaHei&#39;, arial, 宋体, sans-serif, tahoma; white-space: pre-wrap; word-wrap: break-word; line-height: 29px; color: rgb(51, 51, 51); font-variant-ligatures: normal; orphans: 2; widows: 2; min-height: 55px; background-color: rgb(255, 255, 255);\">我听见雨滴落在青青草地\r\n我听见远方下课钟声响起</pre><p><br/></p>', '2018-06-07 14:56:11', '2018-06-07 14:56:26', '1', 'SHE', '0', NULL, '1', '艹');
+INSERT INTO `apd_interfaceauto_test`.`notice` (`CmsID`, `CmsTitle`, `Summary`, `CmsContent`, `CreateAt`, `UpdateAt`, `CmsType`, `Source`, `CmsState`, `MediaIcon`, `IsPublish`, `keyword`) VALUES ('3973', '小幸运', '我', '<pre id=\"best-content-2261216349\" accuse=\"aContent\" class=\"best-text mb-10\" style=\"margin-top: 10px; margin-bottom: 10px; padding: 0px; font-family: &#39;PingFang SC&#39;, &#39;Lantinghei SC&#39;, &#39;Microsoft YaHei&#39;, arial, 宋体, sans-serif, tahoma; white-space: pre-wrap; word-wrap: break-word; line-height: 29px; color: rgb(51, 51, 51); font-variant-ligatures: normal; orphans: 2; widows: 2; min-height: 55px; background-color: rgb(255, 255, 255);\">我听见雨滴落在青青草地\r\n我听见远方下课钟声响起</pre><p><br/></p>', '2018-06-07 14:56:11', '2018-06-07 14:56:26', '1', 'SHE', '0', NULL, '1', '艹');
 
+8、我的积分(15558524696 15558524696)
+UPDATE `apd_interfaceauto_test`.`user_points` SET `CurrentPoints`='10400' WHERE (`UserID`='131455');

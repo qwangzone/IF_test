@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fae89c3-2536-4f87-b9e6-9c07bd79fd1d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/interface_test/test_case/mypoints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface_test/债转标的准备.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface_test/债转标的准备.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="债转标的准备.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="债转标的准备.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="490">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -36,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_personal_data_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_personal_data_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
+            <state relative-caret-position="305">
               <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
@@ -527,7 +525,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18756586" />
@@ -537,7 +535,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.29175705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3137255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3137255" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -892,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/test_case/mypoints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -911,8 +902,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface_test/test_case/user_personal_data_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="305">
           <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_test/债转标的准备.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
